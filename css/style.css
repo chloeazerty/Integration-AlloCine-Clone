@@ -1,0 +1,190 @@
+
+
+/* --------------------------------------------------
+---------------- FONTS & TEXTS ----------------------
+----------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family:'Roboto';
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family:'Montserrat';
+    font-weight:bold;
+}
+h1{
+    font-size:4rem;
+    margin-bottom:1rem; /* equivalent à 16px */
+}
+h2{
+    font-size:3.2rem;
+    margin-bottom:1rem; /* equivalent à 16px */
+}
+h3{
+    font-size:4rem;
+    margin-bottom:1rem; /* equivalent à 16px */
+}
+p,
+ul,
+ol,
+li,
+a,
+blockquote,
+figcaption,
+span
+table,
+tr,
+td,
+article,
+details,
+section,
+main{
+    font-family:"Roboto";
+    font-weight:400 /* REGULAR */
+}
+/*p{
+    font-size: 1rem;
+    line-height:1.3rem;
+}*/
+
+/* STRUCTURE ET POSITIONNEMENTS */
+
+.container{
+    max-width:1400px;
+    margin:0 auto;
+}
+.row{
+    display:flex;
+}
+
+
+/* puis viennent les colonnes */
+.w-25{
+    width: 25%;
+}
+.w-33{
+    width:33.333333%
+}
+.w-50{
+    width:50%;
+}
+.w-66{
+    width:66.666666%;
+}
+.w-75{
+    width:75%;
+}
+.w-100{
+    width:100%;
+}
+
+
+
+.bord-arrondi{
+    border-radius:10px
+}
+
+
+/* Helpers */
+.text-center{
+    text-align:center;
+}
+.text-right{
+    text-align:right;
+}
+
+.roboto{
+    font-family: 'Roboto';
+}
+
+.bg-blue{
+    background-color:#2424ad;
+}
+
+
+#title{
+    text-align:center;
+    letter-spacing: 1.5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#menu{
+    justify-content:center;
+    display:inline;
+    padding:5px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/*body{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+*/
+
+
+
+#img1{
+    Height:300px;
+    margin-top: 15px;
+}
+#intro_text{
+    padding-top: 70px;
+    padding-left: 0px
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 1rem;
+    line-height:1.3rem;
+}
+#eric{
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+.synopsis{
+    margin-top: 20px;
+}
+
+#critiques{
+    margin-top: 30px;
+}
+
+.fa-star:before{
+    color:#fecc00;
+    padding-right:5px;
+}
+
+.col-4{
+    padding-left: 0px;
+}
+ul#etoiles{
+    padding-left:0px;
+}
+
+.card{
+    border:none;
+    padding-right:3px;
+}
+img.flex-shrink-0.me-3{
+    width: 100px;
+    height: 100px;
+  
+}
+a.stretched-link{
+    text-decoration:none;
+    font-weight:bold;
+}
+#menu:hover{
+    background-color:rgb(224, 224, 224);
+}
+
